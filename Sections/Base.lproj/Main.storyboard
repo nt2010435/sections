@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4HW-nb-cnV">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4HW-nb-cnV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="5kK-6t-ncb"/>
@@ -30,10 +31,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4HW-nb-cnV" secondAttribute="bottom" id="2l8-wS-QaN"/>
+                            <constraint firstItem="4HW-nb-cnV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3n3-Ej-FLN"/>
+                            <constraint firstAttribute="trailing" secondItem="4HW-nb-cnV" secondAttribute="trailing" id="76v-4r-BIa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4HW-nb-cnV" secondAttribute="bottom" id="Aea-C9-D4f"/>
                             <constraint firstItem="4HW-nb-cnV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DPO-2I-aVg"/>
                             <constraint firstAttribute="trailing" secondItem="4HW-nb-cnV" secondAttribute="trailing" id="LmS-M6-9P2"/>
                             <constraint firstItem="4HW-nb-cnV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="M7I-C2-o7b"/>
+                            <constraint firstItem="4HW-nb-cnV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Z7p-GD-fMM"/>
                         </constraints>
                     </view>
                     <connections>
