@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "637D9A8D1E3790EC00AAC814"
+               BlueprintIdentifier = "B61C32E91BA4C6100055C5E5"
                BuildableName = "Sections.app"
                BlueprintName = "Sections"
                ReferencedContainer = "container:Sections.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "637D9AA11E3790EC00AAC814"
-               BuildableName = "SectionsTests.xctest"
-               BlueprintName = "SectionsTests"
-               ReferencedContainer = "container:Sections.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "637D9AAC1E3790EC00AAC814"
-               BuildableName = "SectionsUITests.xctest"
-               BlueprintName = "SectionsUITests"
-               ReferencedContainer = "container:Sections.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "637D9A8D1E3790EC00AAC814"
+            BlueprintIdentifier = "B61C32E91BA4C6100055C5E5"
             BuildableName = "Sections.app"
             BlueprintName = "Sections"
             ReferencedContainer = "container:Sections.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "637D9A8D1E3790EC00AAC814"
+            BlueprintIdentifier = "B61C32E91BA4C6100055C5E5"
             BuildableName = "Sections.app"
             BlueprintName = "Sections"
             ReferencedContainer = "container:Sections.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "637D9A8D1E3790EC00AAC814"
+            BlueprintIdentifier = "B61C32E91BA4C6100055C5E5"
             BuildableName = "Sections.app"
             BlueprintName = "Sections"
             ReferencedContainer = "container:Sections.xcodeproj">
